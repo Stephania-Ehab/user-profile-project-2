@@ -1,0 +1,19 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore database file
+*.sqlite3
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables
+.env
+
+# Ignore other system files
+*.log
+*.bak
+*.swp
+*.tmp
+
