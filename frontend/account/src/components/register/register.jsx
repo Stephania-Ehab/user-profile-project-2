@@ -1,3 +1,4 @@
+import './register.css';
 import React, { useState } from 'react';
 import authService from '../services/authService';
 
@@ -24,7 +25,7 @@ const Register = () => {
     };
 
     return (
-        <div>
+        <div class='container'>
             <h2>Register</h2>
             <form onSubmit={handleSubmit}>
                 <label for="first_name">First Name:</label>
@@ -36,6 +37,7 @@ const Register = () => {
                 <label for="password">Password:</label>
                 <input type="password" name="password" placeholder="Password" onChange={handleChange} /> <br/>
                 <button type="submit">Register</button>
+                <p>Already have an account? <a href="/login">Login</a></p>
             </form>
         </div>
     );

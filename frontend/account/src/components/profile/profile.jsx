@@ -33,7 +33,7 @@ const Profile = () => {
     };
 
     return (
-        <div>
+        <div class='container'>
             <h2>Profile</h2>
             <form onSubmit={handleSubmit}>
                 <label for="first_name">First Name:</label>
